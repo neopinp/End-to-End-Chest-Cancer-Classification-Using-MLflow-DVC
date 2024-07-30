@@ -1,3 +1,4 @@
-from cnnClassifier import logger 
+# test logging 
+from src.cnnClassifier import logger 
 
 logger.info("Welcome to cnnClassifier")

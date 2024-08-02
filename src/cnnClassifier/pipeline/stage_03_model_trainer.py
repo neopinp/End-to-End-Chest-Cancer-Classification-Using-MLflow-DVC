@@ -10,8 +10,8 @@ class ModelTrainingPipeline:
 
     def main(self):
         config = ConfigurationManager()
-        training_config = config.get_training_config()
-        training = Training(config=training_config)
+        training_config = config.get_training_config()#method creates TrainingConfig instance with desired config data(returns training_config)
+        training = Training(config=training_config) #creates an instance of Training using TrainingConfig instance previously created
         training.get_base_model()
         training.train_valid_generator()
         training.train()

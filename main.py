@@ -5,7 +5,7 @@ os.environ["MLFLOW_TRACKING_USERNAME"] = "neopinp"
 os.environ["MLFLOW_TRACKING_PASSWORD"] = "589405f077784a316694430913e805864d0902de"
 
 from src.cnnClassifier import logger 
-from cnnClassifier.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
+from src.cnnClassifier.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from src.cnnClassifier.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
 from src.cnnClassifier.pipeline.stage_03_model_trainer import ModelTrainingPipeline
 from src.cnnClassifier.pipeline.stage_04_model_evaluation import EvaluationPipeline

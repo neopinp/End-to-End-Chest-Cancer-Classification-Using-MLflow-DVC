@@ -1,3 +1,10 @@
+import os
+import sys 
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..')))
+
+
+
 from src.cnnClassifier.config.configuration import ConfigurationManager
 from src.cnnClassifier.components.model_evaluation_mlflow import Evaluation
 from src.cnnClassifier import logger 
@@ -14,7 +21,7 @@ class EvaluationPipeline:
         evaluation = Evaluation(eval_config)
         evaluation.evaluation()
         evaluation.save_score()
-        evaluation.log_into_mlflow()
+        # evaluation.log_into_mlflow()
 
 if __name__ == "__main__":
     try:

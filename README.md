@@ -14,13 +14,6 @@
 
 ### dagshub 
 
-Run to export as env variables:
-```bash 
 
-export MLFLOW_TRACKING_URI="https://dagshub.com/neopinp/End-to-End-Chest-Cancer-Classification-Using-MLflow-DVC.mlflow"
-export MLFLOW_TRACKING_USERNAME="neopinp"
-export MLFLOW_TRACKING_PASSWORD="589405f077784a316694430913e805864d0902de"
-
-``` 
 URI:
 024848469472.dkr.ecr.us-east-2.amazonaws.com/chest

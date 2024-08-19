@@ -12,8 +12,3 @@
 8. Update the dvc.yaml
 
 
-### dagshub 
-
-
-URI:
-024848469472.dkr.ecr.us-east-2.amazonaws.com/chest
